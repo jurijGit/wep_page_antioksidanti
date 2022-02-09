@@ -1,0 +1,337 @@
+body {
+    background: url("image/bg.png") repeat;
+	font-family: Helvetica,"Helvetica Bold", bold;
+	color: #605E5E;
+	margin: 0px;
+	padding: 0px;
+	font-weight:bold;
+	font-size: 16px;
+	overflow-y:scroll;
+}
+
+#wrapper{
+	width: 100%;
+	margin: 0 auto;
+}
+
+#header {
+	width: 1024px;
+	height: 150px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#social {
+	width: 115px;
+	position: relative;
+	left:870px;
+    top:-40px;
+}
+
+img.social{	
+	width: 35px;
+	height: 35px;
+}
+
+img.logo {
+	position: relative;
+	top: 10px;
+	height: 120px;
+	width: 510px;
+	padding: 15px;
+}
+
+#menu {
+	width: 1024px;
+	height: 42px;
+	margin: 0 auto;
+	position: relative;
+	font-size:20px;
+	font-weight: bold;
+}
+
+hr { 
+	color: #000000;
+	background-color: #000000;
+	height: 1px;
+	border: 0px;
+} 
+
+table.menu{
+	font-size:20px;
+	width: 1000; 
+	text-align: center;
+
+}
+
+td.menu{
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+img.pom{
+	vertical-align: middle;	
+	width: 34px;
+	height: 38px;
+	padding: 4px;
+}
+
+#vsebina{
+	width:1024;
+	margin: 0 auto;
+	text-align:justify;
+	overflow: hidden;
+}
+
+#biotekst{
+	width:510px;
+	float:right;
+}
+
+#bioslika{
+	width:480;
+	float:left;
+}
+
+#kontaktform{
+	width:510px;
+	float:right;
+
+}
+
+input[type="text"] {
+	padding: 5px;
+	width: 450px;
+	font-family: Helvetica,"Helvetica Bold", bold;
+	color: #605E5E;
+	font-size: 16px;
+	font-weight:bold;
+	border: solid 1px #605E5E;
+	margin: 3px 0;
+}
+
+input[type="submit"] {
+	padding: 5px;
+	width: 450px;
+	font-family: Helvetica,"Helvetica Bold", bold;
+	color: #605E5E;
+	font-size: 16px;
+	font-weight:bold;
+	border: solid 1px #605E5E;
+	margin: 3px 0;
+	cursor: pointer;
+}
+
+textarea {
+	padding: 5px;
+	width: 450px;
+	font-family: Helvetica,"Helvetica Bold", bold;
+	color: #605E5E;
+	font-size: 16px;
+	font-weight:bold;
+	border: solid 1px #605E5E;
+	margin: 3px 0;
+}
+
+#koncertwrapper {
+	width: 900px;
+	height: 150px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#koncertdatum {
+	height: 120px;
+	width: 150px;
+	text-align: center;
+	float:left;
+	padding-top: 0px;
+}
+
+#koncertdatumdan {
+	width:150px;
+	height: 120px;
+	font-size: 25px;
+	font-weight:bold;
+	color: #f7921c;
+	text-align: center;
+}
+
+#koncertdatumura {
+	width:150px;
+	font-size:14px;
+	font-weight:lighter;
+	color:#605E5E;
+}
+
+#koncertimeopis {
+	width:900px;
+	height:120px;
+}
+
+#koncertimeopisnaslov {
+	height: 30px;
+	font-size: 25px;
+	font-weight:bold;
+	color:#f7921c;
+}
+
+#koncertimeopistekst {
+	height:80px;
+	width:720px;
+	padding:5px;
+}
+
+#koncertfb{
+	width:130px;
+	height:90px;
+	float:right;
+	padding-top: 30px;
+}
+
+#mediawrapper{
+	width: 1000px;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align:center;
+}
+#trgovinawrapper{
+	width: 1000px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#izdelek{
+	width: 900px;
+	height: 160px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#trgovinaslikaizdelka {
+	height: 150px;
+	width: 150px;
+	text-align: center;
+	float:left;
+	padding-top: 10px;
+
+}
+
+#izdelekopis {
+	width:900px;
+	height:150px;
+
+}
+
+#tnaslov{
+	height: 30px;
+	font-size: 25px;
+	font-weight:bold;
+	color:#f7921c;
+}
+
+#tcena{
+	font-size:14px;
+	font-weight:lighter;
+	color:#605E5E;
+}
+
+#topis{
+	height:40px;
+	width:720px;
+	padding:5px;
+}
+#tgumb{
+	width:130px;
+	height:35px;
+	float:left;
+
+}
+
+button.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 17px;
+  background: #f7911c;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight:bold;
+}
+
+button.btn:hover {
+  background: #3b5898;
+}
+
+
+a:link {
+	color: #000000; text-decoration: none; 
+}
+a:active {
+	color: #000000; text-decoration: none; 
+}
+a:visited {
+	color: #000000; text-decoration: none; 
+}
+a:hover {
+	color: #000000; text-decoration: none;
+}
+
+button.gumtrg{
+
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 15px;
+  background: #f7911c;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight:bold;
+}
+
+button.gumtrg:hover {
+ /* background: #3b5898; */
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 450px /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
